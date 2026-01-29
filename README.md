@@ -112,12 +112,6 @@ See [TEMPLATE.md](references/TEMPLATE.md) for the complete customization templat
 
 MIT License - free to use, modify, and distribute commercially or non-commercially.
 
-## Credits
-
-Created by Avery at [Powerful Systems](https://powerfulsystems.com) for Claude Code.
-
-Based on production workflows developed for the Chapter school comparison platform.
-
 ---
 
 ⭐ **Star this repo** if you find it useful!
