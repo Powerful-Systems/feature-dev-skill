@@ -73,27 +73,6 @@ Which approach do you prefer?
 
 Each phase includes self-validation checks and stopping conditions.
 
-## Key Features
-
-- **🎯 Competing Hypotheses** - Evaluate 2-3 approaches before implementation to ensure the simplest solution
-- **🛡️ Self-Validation** - Quality checklists at every phase prevent shipping broken code
-- **♻️ Triple Simplification** - Dedicated reviews at phases 3, 6, and 7 to reduce complexity
-- **🚦 Smart Stops** - Automatically pauses when blocked 3+ times or scope creeps
-- **🧠 State Tracking** - Maintains context and decisions across long sessions
-- **🔌 Dual Issue Tracking** - Works with Linear and GitHub Issues out of the box
-
-## When to Use
-
-**✅ Perfect for:**
-- New features or capabilities
-- Complex bug fixes
-- Features with unclear requirements
-- Projects prioritizing quality and simplicity
-
-**❌ Overkill for:**
-- Simple typo fixes or single-line changes
-- Quick documentation updates
-
 ## Customization
 
 Fork and customize for your project:
@@ -128,21 +107,6 @@ your-project-skill/
 Reference these files in `SKILL.md` Phase 4 so Claude knows to read them during implementation.
 
 See [TEMPLATE.md](references/TEMPLATE.md) for the complete customization template.
-
-## Documentation
-
-- **[EXAMPLES.md](EXAMPLES.md)** - 5 real-world scenarios
-- **[SKILL.md](SKILL.md)** - Complete specification (439 lines)
-- **[QUICKSTART.md](QUICKSTART.md)** - Publishing guide
-- **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
-
-## Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-- [Report a bug](https://github.com/Powerful-Systems/feature-dev-skill/issues/new?labels=bug)
-- [Request a feature](https://github.com/Powerful-Systems/feature-dev-skill/issues/new?labels=enhancement)
-- [Ask a question](https://github.com/Powerful-Systems/feature-dev-skill/discussions)
 
 ## License
 
