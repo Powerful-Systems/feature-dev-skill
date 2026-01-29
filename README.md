@@ -98,12 +98,36 @@ Each phase includes self-validation checks and stopping conditions.
 
 Fork and customize for your project:
 
-1. Copy `references/TEMPLATE.md` to `references/project-patterns.md`
-2. Fill in your tech stack, patterns, and standards
-3. Update `SKILL.md` Phase 4 to reference your patterns
-4. Rename the skill in directory name + YAML frontmatter
+1. **Add project patterns**: Copy `references/TEMPLATE.md` to `references/project-patterns.md`
+2. **Fill in your details**: Tech stack, coding standards, architecture patterns
+3. **Reference your patterns**: Update `SKILL.md` Phase 4 to point to your patterns file
+4. **Rename the skill**: Update directory name + YAML frontmatter
 
-See [TEMPLATE.md](references/TEMPLATE.md) for the complete template.
+### Adding Project Documentation
+
+Place your project-specific documentation in the `references/` directory:
+
+```
+your-project-skill/
+├── SKILL.md
+└── references/
+    ├── project-patterns.md    # Main patterns (from TEMPLATE.md)
+    ├── tech-stack.md          # Technology details
+    ├── api-conventions.md     # API design patterns
+    ├── database-schema.md     # DB patterns and migrations
+    └── common-pitfalls.md     # Things to avoid
+```
+
+**Where to document what:**
+- **Tech stack & patterns** → `references/project-patterns.md` (use the template)
+- **API/endpoint conventions** → `references/api-conventions.md`
+- **Database patterns** → `references/database-schema.md`
+- **UI/component library** → `references/ui-patterns.md`
+- **Common mistakes** → `references/common-pitfalls.md`
+
+Reference these files in `SKILL.md` Phase 4 so Claude knows to read them during implementation.
+
+See [TEMPLATE.md](references/TEMPLATE.md) for the complete customization template.
 
 ## Documentation
 
